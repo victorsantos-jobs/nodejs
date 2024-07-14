@@ -10,7 +10,7 @@ app.get('/inicio', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Rota principal, fiz essa e a rota inicio.');
+    res.send('Rota principal, fiz essa e a rota inicio. Tendo também a rota inicio e a rota meio.');
 });
 
 
